@@ -22,18 +22,23 @@
     <div class="mb-3 d-flex justify-content-end">
       <button type="button" class="btn btn-primary" (click)="Cadastrar()">Cadastrar</button>
     </div>
-  </form>
-
-  <tr *ngFor="let Empresa of empresa">
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">{{Empresa.nome}}</h5>
-          <p class="card-text">{{Empresa.categoria}}</p>
-          <p class="card-text">{{Empresa.cnpj}}</p>
-          <p class="card-text">{{Empresa.porte}}</p>
-          <p class="card-text">{{Empresa.empregados}}</p>
-          <p class="card-text">{{Empresa.id}}</p>
-        </div>
+    <div class="mb-3 d-flex justify-content-end">
+        <button type="button" class="btn btn-danger" (click)="Remover(empresa)">Remover</button>
     </div>
+  </form>
+<tr *ngFor="let Empresa of empresa">
+    <table class="table">
+        <tbody>
+          <tr>
+            <th scope="row-1">{{Empresa.id}}</th>
+            <th scope="row-2">{{Empresa.nome}}</th>
+            <th scope="row-3">{{Empresa.categoria}}</th>
+            <th scope="row-4">{{Empresa.cnpj}}</th>
+            <th scope="row-5">{{Empresa.porte}}</th>
+            <th scope="row-6">{{Empresa.empregados}}</th>
+          </tr>
+        </tbody>
+      </table>
 </tr>
+
   

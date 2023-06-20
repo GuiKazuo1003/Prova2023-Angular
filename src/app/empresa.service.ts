@@ -19,4 +19,9 @@ export class EmpresaService {
   getEmpresa(): Observable <Empresa[]> {
     return this.http.get<Empresa[]> (this.url)
   }
+
+  Remover(empresa : Empresa):Observable<void>{
+    return this.http.delete<void>(`${this.url}/${empresa.id}`);
+  }
+  
 }

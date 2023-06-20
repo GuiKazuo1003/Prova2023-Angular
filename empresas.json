@@ -15,6 +15,22 @@
       "cnpj": 21321,
       "porte": "hbsjha",
       "empregados": 6572
+    },
+    {
+      "id": 3,
+      "nome": null,
+      "categoria": null,
+      "cnpj": null,
+      "porte": null,
+      "empregados": null
+    },
+    {
+      "id": 4,
+      "nome": null,
+      "categoria": null,
+      "cnpj": null,
+      "porte": null,
+      "empregados": null
     }
   ]
 }
