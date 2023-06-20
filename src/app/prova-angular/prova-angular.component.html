@@ -23,4 +23,17 @@
       <button type="button" class="btn btn-primary" (click)="Cadastrar()">Cadastrar</button>
     </div>
   </form>
+
+  <tr *ngFor="let Empresa of empresa">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{Empresa.nome}}</h5>
+          <p class="card-text">{{Empresa.categoria}}</p>
+          <p class="card-text">{{Empresa.cnpj}}</p>
+          <p class="card-text">{{Empresa.porte}}</p>
+          <p class="card-text">{{Empresa.empregados}}</p>
+          <p class="card-text">{{Empresa.id}}</p>
+        </div>
+    </div>
+</tr>
   
