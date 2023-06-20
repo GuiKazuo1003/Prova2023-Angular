@@ -1,0 +1,20 @@
+{
+  "EMPRESA": [
+    {
+      "id": 1,
+      "nome": "Zambow",
+      "categoria": "Alimentos",
+      "cnpj": 11111111,
+      "porte": "Grande",
+      "empregados": 400
+    },
+    {
+      "id": 2,
+      "nome": "asdad",
+      "categoria": "vghewjd",
+      "cnpj": 21321,
+      "porte": "hbsjha",
+      "empregados": 6572
+    }
+  ]
+}
